@@ -89,13 +89,22 @@ test sample separated by a single space.
 
 ### Input and Output
 
-In the case it was used images with and without humans, the model is trained with labeled images and we are going to pass 10 images without humans, 10 images with humans and 10 images for testing<br>
+In the case it was used images with and without humans, the model is trained with labeled images and we are going to pass 10 images without humans, 10 images with humans and 10 images for testing<br><br>
+![image](https://github.com/pedrodbatista/image-descriptors-HoG-/assets/80288516/8beb8b88-292c-49db-bfff-0b2169285eee)     ![image](https://github.com/pedrodbatista/image-descriptors-HoG-/assets/80288516/a6e24556-497d-4713-96d9-0cf1f26d8787)<br>
+_examples of the inputs that the program will use for training_<br>
 
 In the code you have to pass all the file names separeded by space for the same sample, and separeded by a line brak for differente samples.<br>
 
 The result of using the HoG descriptor of the 20 input training
 images to train a KNN model and then using this model to predict whether the 10 testing
 samples have humans or not.
+
+### Testing
+Running the model with
+```
+python3 imageDescriptors.py < input.in
+```
+To run use the 'input.in' file to simplify the process of specifying the directory where the image files are located and the files itself. In this input, we allocated 60% of the images for training and used 20 images for testing. The model has achieved a 70% accuracy, which appears to be suitable for the project's scope.t.
 
 #### References
 
