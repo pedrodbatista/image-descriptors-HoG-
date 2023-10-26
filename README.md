@@ -1,6 +1,6 @@
 # Image-descriptors-HoG-
 Implementation of a Histogram of Oriented Gradients (HoG) - Image processing
-This model will try to accuratly say if in a given image it has a human or not, using histogram of oriented gradients, in this repository it will have a folder with some images for testing.
+This model will attempt to accurately determine whether a given image contains a human or not, using the Histogram of Oriented Gradients. In this repository, you will find a folder with some images for testing.
 
 ## Introduction
 
